@@ -15,11 +15,11 @@ public class IncidentCalculation {
 
 	// JDBC driver name and database URL
 	final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-	final String DB_URL = "jdbc:mysql://localhost/mehtake_db";
+	final String DB_URL = "jdbc:mysql://localhost/<db name>";
 	
 	//  Database credentials
-	final String USER = "mehtake";
-	final String PASS = "oodp507";
+	final String USER = "<username>";
+	final String PASS = "<pass>";
 	 
 	Connection conn = null;
 	Statement stmt = null;

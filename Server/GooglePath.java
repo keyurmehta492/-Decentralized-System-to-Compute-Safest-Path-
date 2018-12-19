@@ -14,7 +14,7 @@ import org.json.JSONObject;
 
 public class GooglePath {
 
-	String key = "AIzaSyCqr7zwIzy9ZCVvpa43iE8kc58oJv5m5Bc";
+	String key = "<API Key>";
 	String baseUrl = "https://maps.googleapis.com/maps/api/directions/json?";
 	URL url;
 	HttpURLConnection con;
